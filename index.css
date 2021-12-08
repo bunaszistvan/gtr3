@@ -1,0 +1,41 @@
+*{
+box-sizing: border-box;
+}
+body{
+    background-image: url("images/gtr.jpg");
+    image-resolution: auto;
+    width: auto;
+    height: auto;
+}
+.box{
+
+    background-color:black;
+    max-width: 600px;
+    min-width: 200px;
+    padding: 20px;
+    border-width: 10px;
+    border-style: white dashed;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    margin: 40px 20px;
+    color:whitesmoke;
+    
+}
+.header-image{
+    background-image: url("images/gtr2.jpg");
+    height: 200px;
+    
+}
+.box-content{
+    padding:20px;
+
+}
+.box .box-content h2{
+    margin: 0;
+
+}
+.box.box-2.header-image2{
+    background-image: url("images/history.jpg");
+    height: 200px;
+}
+
